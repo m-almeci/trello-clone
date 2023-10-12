@@ -1,0 +1,56 @@
+.background {
+  background-color: #f9fafc;
+  z-index: 1;
+}
+
+.title {
+  color: #5e6c84;
+}
+
+input {
+  background-color: #fafbfc;
+  border-color: #dfe1e6;
+}
+
+button[type="submit"]{
+  background-color: #5aac44;
+}
+
+hr {
+  border-color: #cecece;
+}
+
+a.blue-a {
+  color: #0453cc;
+
+  &:hover{
+    text-decoration: underline #0453cc;
+  }
+}
+
+a.grey-a {
+  color: #76839c;
+
+  &:hover{
+    text-decoration: underline #76839c;
+  }
+}
+
+select {
+  background-color: #f9fafc;
+}
+
+.btn:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.btn:hover {
+  background-color: #f9fafc;
+}
+
+button:not(.btn):hover {
+  background-color: #69be52;
+}
+.main {
+  width: 400px
+}

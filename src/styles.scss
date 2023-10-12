@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, input, form, button, select {
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: -0.05em !important;
+}
+
+.centered-shadow-md {
+  box-shadow: 2px 0 6px rgba(118, 117, 128, 0.2), 0 0 6px rgba(118, 117, 128, 0.2);
+}
