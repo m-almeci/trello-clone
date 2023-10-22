@@ -16,9 +16,9 @@ module.exports = {
   theme: {
     extend: {
       fontWeight: {
-        'normal': 300,
+        'normal': 200,
         'medium': 400,
-        'bold': 700
+        'bold': 600
       }
     }
   }
